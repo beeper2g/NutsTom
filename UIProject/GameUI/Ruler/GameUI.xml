@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>GameControl</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>GameReport</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>GameWait</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>GameMain</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>

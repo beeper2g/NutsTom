@@ -1,0 +1,9 @@
+cn_string_table = {};
+cn_string_table.share_format = "小伙伴们，快来玩吧";
+cn_string_table.score_share_format = "万里长征，%dm";
+
+
+
+en_string_table = {};
+en_string_table.share_format = "Come on!";
+en_string_table.score_share_format = "Score %dm";

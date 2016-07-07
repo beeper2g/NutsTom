@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game">
+      <UniqueIdentifier>{646611c8-7b3d-40a9-ad45-4388a7fee395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\comm">
+      <UniqueIdentifier>{aad51e2f-1610-40cf-a14f-a1f29d3ca541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\lua">
+      <UniqueIdentifier>{90438273-7fac-4d36-a4c1-99858c2cb04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\data">
+      <UniqueIdentifier>{f61568eb-705e-431c-8dcd-b432cd0ea9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk">
+      <UniqueIdentifier>{f2d30f6d-3e43-460c-8f16-271d873ba2b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\menu">
+      <UniqueIdentifier>{c9ff1c94-cd9b-4abe-b8a8-e7ea4670d651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\crypto">
+      <UniqueIdentifier>{47528a8c-29df-472d-9f49-dca520c11e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\crypto\base64">
+      <UniqueIdentifier>{d207f384-dca8-4a42-9b83-d133be3d1587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\crypto\md5">
+      <UniqueIdentifier>{c170c158-61af-487f-8a80-decbefc7499d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\crypto\sha1">
+      <UniqueIdentifier>{a37390a0-5bb8-4f74-adc8-b0a7cca7d500}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comm\BasicLayer.cpp">
+      <Filter>Classes\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comm\BasicScene.cpp">
+      <Filter>Classes\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comm\CommCocos2dxFunc.cpp">
+      <Filter>Classes\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comm\LuaEngine.cpp">
+      <Filter>Classes\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comm\MenuItemButton.cpp">
+      <Filter>Classes\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comm\SoundManager.cpp">
+      <Filter>Classes\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comm\TouchLayer.cpp">
+      <Filter>Classes\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comm\UIDebug.cpp">
+      <Filter>Classes\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comm\UIHelper.cpp">
+      <Filter>Classes\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comm\Utility.cpp">
+      <Filter>Classes\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\GameBackground.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneBuilder.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\GameScene.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lapi.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lauxlib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lbaselib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lcode.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ldblib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ldebug.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ldo.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ldump.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lfunc.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lgc.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\linit.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\liolib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\llex.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lmathlib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lmem.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\loadlib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lobject.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lopcodes.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\loslib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lparser.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lstate.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lstring.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lstrlib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ltable.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ltablib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ltm.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lua.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lundump.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lvm.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lzio.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\print.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\GameLayer.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\GameControlDelegate.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Hero.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\GlobalData.cpp">
+      <Filter>Classes\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\LoadScene.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\MainMenuScene.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Pillar.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\WaitClockCtrl.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\crypto\CCCrypto.cpp">
+      <Filter>Classes\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\crypto\sha1\sha1.cpp">
+      <Filter>Classes\crypto\sha1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\crypto\base64\libb64.cpp">
+      <Filter>Classes\crypto\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\crypto\md5\md5.cpp">
+      <Filter>Classes\crypto\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\ResourceManager.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\ShareMethod.cpp">
+      <Filter>Classes\sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\BasicLayer.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\BasicScene.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\Cocos2dxPlatform.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\CommCocos2dxFunc.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\LuaEngine.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\MenuItemButton.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\SoundManager.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\SoundManagerCallback.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\TouchDelegate.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\TouchLayer.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\UIDebug.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\UIHelper.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comm\Utility.h">
+      <Filter>Classes\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GameBackground.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneBuilder.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GameScene.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lapi.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lauxlib.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lcode.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\ldebug.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\ldo.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lfunc.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lgc.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\llex.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\llimits.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lmem.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lobject.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lopcodes.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lparser.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lstate.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lstring.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\ltable.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\ltm.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lua.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\luaconf.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lualib.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\luna.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lundump.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lvm.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lzio.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GameLayer.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GameControlDelegate.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Hero.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\ShareMethod.h">
+      <Filter>Classes\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\GlobalData.h">
+      <Filter>Classes\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\LoadScene.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\MainMenuScene.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Pillar.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GameParam.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GameControl.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\WaitClockCtrl.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\crypto\CCCrypto.h">
+      <Filter>Classes\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\crypto\base64\libb64.h">
+      <Filter>Classes\crypto\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\crypto\md5\md5.h">
+      <Filter>Classes\crypto\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\crypto\sha1\sha1.h">
+      <Filter>Classes\crypto\sha1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\ResourceManager.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

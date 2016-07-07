@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+    <Wechat
+        Id="1"
+        SortId="1"
+        AppId="wxa68d087a73c00f66"
+        BypassApproval="false"
+        Enable="true" />
+    
+    <WechatMoments
+        Id="2"
+        SortId="2"
+        AppId="wxa68d087a73c00f66"
+        BypassApproval="false"
+        Enable="true" />
+        
+</DevInfor>
